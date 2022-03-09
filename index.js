@@ -41,7 +41,7 @@ function setup(config, options) {
 
   // Use file loader options for sprite name
   options.sprite = _.merge(
-    { spriteFilename: 'img/[name].[hash:8].[ext]' }, // hard change for fix build error
+    { spriteFilename: 'img/[name].[fullhash:8].[ext]' }, // hard change for fix build error
     options.sprite
   );
 
